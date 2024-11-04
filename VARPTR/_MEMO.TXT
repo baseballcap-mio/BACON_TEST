@@ -1,0 +1,23 @@
+[VP_FCB.ASC]
+	動作確認用プログラム(FCB)
+
+	2024/07/31  20:47             7,135 BACONLDR.BIN
+	2024/07/31  20:47         1,952,768 msx_bacon.exe
+	2024/03/29  06:14           539,648 zma.exe
+
+	BACONパス。ZMAでエラー。
+	ERROR:Illegal expression.: vp_fcb.asm(37)
+		;この1か所のみ
+	ERROR:Illegal operand.: vp_fcb.asm(47)
+		;その他、多数発生
+
+
+[VP_VAL.ASC]
+	動作確認用プログラム(変数)
+
+	2024/07/31  20:47             7,135 BACONLDR.BIN
+	2024/07/31  20:47         1,952,768 msx_bacon.exe
+	2024/03/29  06:14           539,648 zma.exe
+
+	BACON,ZMAパス。BIN実行で問題発生。
+	文字型の正しいアドレスを取得出来ず。
