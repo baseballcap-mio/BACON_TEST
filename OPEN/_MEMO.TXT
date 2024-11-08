@@ -1,0 +1,28 @@
+[OPENA000.ASC]	未実装
+	OPEN ... FOR APPEND
+	動作確認用プログラム
+
+[OPENI000.ASC]	未実装
+	OPEN ... FOR INPUT
+	動作確認用プログラム
+
+[OPENO000.ASC]
+	OPEN ... FOR OUTPUT
+	動作確認用プログラム
+
+	2024/07/31  20:47             7,135 BACONLDR.BIN
+	2024/07/31  20:47         1,952,768 msx_bacon.exe
+	2024/03/29  06:14           539,648 zma.exe
+
+	BACON,ZMAパス。
+
+[OPENR000.ASC]
+	OPEN ... ランダムアクセス
+	動作確認用プログラム
+
+	2024/07/31  20:47             7,135 BACONLDR.BIN
+	2024/07/31  20:47         1,952,768 msx_bacon.exe
+	2024/03/29  06:14           539,648 zma.exe
+
+	BACON,ZMAパス。
+	暫定版。現在はOPEN ... FOR INPUTが未実装のため、代用している。
