@@ -1,0 +1,26 @@
+[TIME0000.ASC]
+	動作確認用プログラム
+
+	2024/07/31  20:47             7,135 BACONLDR.BIN
+	2024/07/31  20:47         1,952,768 msx_bacon.exe
+	2024/03/29  06:14           539,648 zma.exe
+
+	BACONパス。ZMAでエラー。
+	ERROR:Illegal expression.: time0000.asm(55)
+		;この1か所のみ
+	ERROR:Illegal operand.: time0000.asm(65)
+		;その他、多数発生
+
+
+[TIME0001.ASC]
+	動作確認用プログラム
+
+	2024/07/31  20:47             7,135 BACONLDR.BIN
+	2024/07/31  20:47         1,952,768 msx_bacon.exe
+	2024/03/29  06:14           539,648 zma.exe
+
+	BACONパス。ZMAでエラー。
+	ERROR:Illegal expression.: time0001.asm(53)
+		;この1か所のみ
+	ERROR:Illegal operand.: time0001.asm(63)
+		;その他、多数発生
