@@ -1,0 +1,5 @@
+[PRINTS00.ASC]
+	動作確認用プログラム
+
+	BACON,ZMAパス。
+	実行できるが、CLOSEが未実装の為、EOFが書かれない。

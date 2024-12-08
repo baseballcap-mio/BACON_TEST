@@ -1,0 +1,14 @@
+[INPUTD00.ASC]	未実装???(basic_commands.txtに記載無し)
+	動作確認用プログラム(PUT00000.ASCが作成したファイルを使用)
+
+	2024/07/31  20:47             7,135 BACONLDR.BIN
+	2024/07/31  20:47         1,952,768 msx_bacon.exe
+	2024/03/29  06:14           539,648 zma.exe
+
+	BACONでエラー。
+	ERROR(155): Missing operand.
+	ERROR(155): Missing operand.
+	ERROR(155): Syntax error.
+
+		INPUT$でファイル番号を省略するとダメらしい。
+		basic_commands.txtでもファイル番号指定の記述が無いので未実装???
