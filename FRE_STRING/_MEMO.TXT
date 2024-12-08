@@ -1,0 +1,18 @@
+[FRES0001.ASC]
+	動作確認用プログラム
+
+	2024/07/31  20:47             7,135 BACONLDR.BIN
+	2024/07/31  20:47         1,952,768 msx_bacon.exe
+	2024/03/29  06:14           539,648 zma.exe
+
+	BACON,ZMAパス。
+	動作はするが、プログラム中にあるPRINT USINGが期待している動作しない(#の数はあっていると思うのだが、桁数オーバーの印の%が付く。)下のプログラムは期待通りに動作するので本プログラムを調査すべきだろう。
+
+	100 'SAVE"PU-TEST.ASC",A
+	110 DEFINT A-Z
+	120 'PRINT FRE(0):'delete
+	121 I=7:PRINT USING"##";I:'add
+	130 PRINT USING"#####";FRE(0)
+	140 A=16384:PRINT USING"#####";A
+	150 END
+
